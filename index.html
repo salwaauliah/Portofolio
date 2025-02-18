@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./component/logo.png" type="image/png">
+    <title>SalwaAulia</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Icons" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.0/font/bootstrap-icons.min.css" />
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <header>
+        <!-- Navbar -->
+        <nav class="navbar">
+            <div class="logo">
+                <h1>Salwa Aulia</h1>
+            </div>
+            <button class="menu-btn" onclick="toggleMenu()">
+                <span class="material-icons" id="menu-icon">menu</span>
+            </button>
+            <div class="nav-links" id="nav-links">
+                <ul>
+                    <li><a href="#home" class="nav-items active">Home</a></li>
+                    <li><a href="#about" class="nav-items">About Me</a></li>
+                    <li><a href="#projects" class="nav-items">Portofolio</a></li>
+                    <li><a href="#contact" class="nav-items">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+        <!-- Navbar End -->
+    </header>
+
+     <!-- Hero -->
+     <section class="Hero" id="home">
+        <div class="row">
+            <div class="image">
+                <img src="./assets/gambar1.png" alt="salwa" />
+            </div>
+            <div class="content">
+                <h2>Hi, I’m Salwa Aulia</h2>
+                <h1>Data Analyst Enthusiast</h1>
+                <p>
+                    Data Analyst with expertise in SQL, Python, and Data Visualization. 
+                    Passionate about transforming raw data into meaningful insights to drive decision-making.💡
+                </p>
+                <a href="./assets/CV Salwa Aulia Hamidah.pdf" class="btn-1" download="Salwa_Aulia_CV">Download CV</a>
+            </div>
+    </section>
+    <!-- Hero End -->
+
+    <!-- About -->
+    <section id="about">
+        <div class="about-text">
+            <h2>About Me</h2>
+            <p>I am a student of Informatics Engineering Study Program at Surabaya State University and have a high interest in a career in IT, 
+                especially data analysis. Have strong skills and project management experience to develop innovative and easy-to-use 
+                digital applications. Have excellent research and analysis skills, able to communicate effectively and work in a team. 
+                Individuals who are enthusiastic to contribute in technology development and willing to work with high commitment and responsibility.
+                </p>
+        </div>
+        <div class="about-image">
+            <img src="./assets/salwa.png" alt="About Me">
+        </div>
+    </section>
+    <!-- About End -->
+
+
+   
+
+    <!-- Project -->
+    <section id="projects" class="portfolio">
+        <div class="container">
+            <h2 class="portfolio-title">
+                Portfolio <span>Showcase</span>
+            </h2>
+            <p class="portfolio-description">
+                Explore my journey through projects, certifications, and technical expertise. Each section represents a milestone in my continuous learning path.
+            </p>
+
+            <!-- Tab Navigation -->
+            <div class="tabs">
+                <button id="projectsTab" class="tab active">Projects</button>
+                <button id="certificatesTab" class="tab">Certificates</button>
+                <button id="techStackTab" class="tab">Tech Stack</button>
+            </div>
+
+            <!-- Content Sections -->
+            <div id="contentContainer"></div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="contact">
+        <div class="contact-info">
+            <h2>Contact Me</h2>
+            <p>
+                If you have any questions or need further information, feel free to reach out to us!
+            </p>
+            <div class="contact-details">
+                <div class="contact-item">
+                    <p>Address: Sidoarjo, East Java, Indonesia</p>
+                </div>
+                <div class="contact-item">
+                    <p>Email: sauliahamidah@gmail.com</p>
+                </div>
+                <div class="contact-item">
+                    <p>Phone: +62 821-31210-895</p>
+                </div>
+            </div>
+
+            <!-- Social Media Section -->
+            <div class="social-media">
+                <div class="social-icons">
+                    <a href="https://linkedin.com/in/salwaauliah" target="_blank" rel="noopener noreferrer"
+                        class="social-icon">
+                        <i class="bi bi-linkedin"></i>
+                    </a>
+                    <a href="https://instagram.com/sauliaah/" target="_blank" rel="noopener noreferrer"
+                        class="social-icon">
+                        <i class="bi bi-instagram"></i>
+                    </a>
+                    <a href="https://wa.me/6282131210895" target="_blank" rel="noopener noreferrer" class="social-icon">
+                        <i class="bi bi-whatsapp"></i>
+                    </a>
+                    <a href="https://github.com/salwaauliah" target="_blank" rel="noopener noreferrer"
+                        class="social-icon">
+                        <i class="bi bi-github"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Contact End-->
+
+    <footer>
+        <p>&copy; 2025 Salwa Aulia Hamidah. All Rights Reserved.</p>
+    </footer>
+
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
